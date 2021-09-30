@@ -1,0 +1,12 @@
+body {
+   width: 80%;
+   padding: 5%;
+   background-color: #495867;
+   color: #F7F7FF;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 1.2em;
+}
+
+h1 {
+   color: #FE5F55;
+}

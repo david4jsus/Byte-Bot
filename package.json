@@ -1,0 +1,16 @@
+{
+  "name": "byte-bot",
+  "version": "1.0.0",
+  "description": "A good Twitch bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DVG",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3",
+    "tmi.js": "^1.8.3"
+  }
+}
