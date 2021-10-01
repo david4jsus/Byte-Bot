@@ -81,7 +81,7 @@ function Init() {
         "Finalizing..",
         "Finalizing...",
     ];
-    loadingTimer = 0.1; ///=============================================================================================///
+    loadingTimer = 2;
     currentTimer = 0;
     targetTimer = 0;
 
@@ -327,14 +327,13 @@ function Draw (dt) {
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
             // Logo graphic
-            //let img = new Image();
-            //img.src = logo_graphic[currentLogoGraphicFrame];
             let logoWidth = 480;
             let logoHeight = logoWidth * 16 / 9;
             ctx.drawImage(logo_graphic[currentLogoGraphicFrame], 0, 0, 1920, 1080, (canvas.width / 2) - logoWidth, (canvas.height / 10), logoHeight, logoWidth);
             
             // "Press any key to continue" text
-            let continueText = "Type !startstream to start...";
+            //let continueText = "Type !startstream to start...";
+            let continueText = "Welcome to the stream!";
             
             ctx.fillStyle = "#FFFFFF";
             ctx.strokeStyle = "#000000";
